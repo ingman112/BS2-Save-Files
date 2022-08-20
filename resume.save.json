@@ -1,0 +1,864 @@
+{
+  "achievements": [
+    "acv_class_axemaster",
+    "acv_class_backbiter",
+    "acv_class_thrasher",
+    "acv_class_bowmaster",
+    "acv_class_grudgewielder",
+    "acv_class_siegearcher",
+    "acv_class_skystriker",
+    "acv_class_shieldmaster",
+    "acv_class_strongarm",
+    "acv_class_provoker",
+    "acv_class_warhawk",
+    "acv_class_warleader",
+    "acv_class_warmaster",
+    "acv_class_hunter",
+    "acv_class_warden",
+    "acv_class_spearmaster",
+    "acv_class_mender_male",
+    "acv_class_eagleeye",
+    "acv_godstone_denglr",
+    "acv_godstone_dundr",
+    "acv_godstone_hatteberg",
+    "acv_godstone_hridvaldyr",
+    "acv_godstone_marek",
+    "acv_godstone_radormyr",
+    "acv_godstone_bjorulf",
+    "acv_godstone_ingrid",
+    "acv_godstone_stravhs",
+    "acv_complete_normal",
+    "acv_complete_quartermaster",
+    "acv_complete_treasure_hunter",
+    "acv_complete_diplomat",
+    "acv_complete_warmonger"
+  ],
+  "battleMusicDefUrl": "saga1/scene/battle/music/boersgard.btlmusic.json.z",
+  "build": "2.58.17",
+  "build_first": "2.58.17",
+  "campSceneStateStoreUrl": "",
+  "campSeed": 1392707253,
+  "camped": true,
+  "caravanName": "rookcaravan",
+  "caravans": [
+    {
+      "leader": "hakon",
+      "legend": {
+        "items": [],
+        "party": [
+          "fasolt",
+          "mogr",
+          "griss",
+          "hakon",
+          "bersi",
+          "yrsa"
+        ],
+        "renown": 0,
+        "roster": [
+          "yrsa",
+          "eirik",
+          "fasolt",
+          "mogr",
+          "griss",
+          "bersi",
+          "gunnulf",
+          "hakon",
+          "narrator"
+        ]
+      },
+      "map_spline_id": "cin_grofheim",
+      "map_spline_key": "",
+      "map_spline_t": 1,
+      "name": "hakoncaravan",
+      "travel_locator": {
+      },
+      "vars": {
+        "banner": "2",
+        "biome": "1",
+        "danger": "13",
+        "danger_bonus_combatants": "-2",
+        "heraldry_enabled": "1",
+        "morale": "80",
+        "morale_bonus_threat": "-1",
+        "morale_bonus_willpower": "1",
+        "morale_category": "4",
+        "num_fighters": "185",
+        "num_varl": "1076",
+        "supplies": "2",
+        "weather_snow_density": "2",
+        "weather_wind": "-2"
+      }
+    },
+    {
+      "leader": "narrator",
+      "legend": {
+        "items": [],
+        "party": [
+          "ludin",
+          "hakon",
+          "mogr",
+          "gunnulf"
+        ],
+        "renown": 0,
+        "roster": [
+          "mogr",
+          "gunnulf",
+          "hakon",
+          "ludin",
+          "narrator"
+        ]
+      },
+      "map_spline_id": "wld_ridgehorn",
+      "map_spline_key": "",
+      "map_spline_t": 1,
+      "name": "narratorcaravan",
+      "travel_locator": {
+      },
+      "vars": {
+        "banner": "2",
+        "biome": "1",
+        "danger": "10",
+        "heraldry_enabled": "1",
+        "morale": "90",
+        "morale_bonus_threat": "-2",
+        "morale_bonus_willpower": "2",
+        "morale_category": "5",
+        "num_fighters": "85",
+        "num_varl": "366",
+        "supplies": "388",
+        "weather_wind": "-1"
+      }
+    },
+    {
+      "leader": "rook",
+      "legend": {
+        "items": [
+          "itm_resist_str_2:3",
+          "itm_arm_3:5",
+          "itm_rest_arm_1:1",
+          "item_crit_3b:2",
+          "itm_str_3:9",
+          "itm_resist_str_1:8",
+          "itm_rest_wil_2:10",
+          "itm_arm_1b:1",
+          "itm_knockback_3:12",
+          "itm_regen_wil_3b:13",
+          "itm_aggro_plus_1:2",
+          "item_crit_2:14",
+          "itm_kill_wil_1:2",
+          "itm_regen_wil_1:6"
+        ],
+        "party": [
+          "ekkill",
+          "iver",
+          "hakon",
+          "eyvind"
+        ],
+        "renown": 21,
+        "roster": [
+          "nid",
+          "yrsa",
+          "oddleif",
+          "eirik",
+          "eyvind",
+          "ekkill",
+          "hogun",
+          "mogun",
+          "mogr",
+          "griss",
+          "iver",
+          "bersi",
+          "gunnulf",
+          "krumr",
+          "hakon",
+          "ludin",
+          "tryggvi",
+          "alette_hood",
+          "narrator",
+          "juno"
+        ]
+      },
+      "map_spline_id": "wld_boersgard",
+      "map_spline_key": "close_boersgard",
+      "map_spline_t": 0,
+      "name": "rookcaravan",
+      "travel_locator": {
+      },
+      "vars": {
+        "banner": "1",
+        "biome": "2",
+        "camped": "1",
+        "danger": "13",
+        "heraldry_enabled": "1",
+        "morale_bonus_threat": "-2",
+        "morale_bonus_willpower": "2",
+        "morale_category": "5",
+        "num_fighters": "154",
+        "num_peasants": "596",
+        "num_varl": "312",
+        "renown": "21",
+        "supplies": "316",
+        "weather_snow_density": "2",
+        "weather_snow_gravity": "3",
+        "weather_snow_variance": "2",
+        "weather_wind": "-5"
+      }
+    },
+    {
+      "leader": "",
+      "legend": {
+        "items": [],
+        "party": [
+          "juno",
+          "rook"
+        ],
+        "renown": 0,
+        "roster": [
+          "rook",
+          "juno"
+        ]
+      },
+      "map_spline_id": "",
+      "map_spline_key": "",
+      "map_spline_t": 0,
+      "name": "junocaravan",
+      "travel_locator": {
+        "travel_id": "travel_1",
+        "travel_position_str": "4219.0000"
+      },
+      "vars": {
+        "banner": "1",
+        "danger_bonus_combatants": "2",
+        "morale_bonus_threat": "-2",
+        "morale_bonus_willpower": "2",
+        "morale_category": "5"
+      }
+    }
+  ],
+  "cast_info": {
+    "alette": {
+      "item": "itm_str_2:1",
+      "stat_ups": {
+        "ARMOR": 2,
+        "ARMOR_BREAK": 1,
+        "KILLS": 17,
+        "RANK": 3,
+        "STRENGTH": 3
+      }
+    },
+    "alette_hood": {
+      "stat_ups": {
+        "ARMOR": 2,
+        "ARMOR_BREAK": 1,
+        "KILLS": 17,
+        "RANK": 3,
+        "STRENGTH": 3
+      }
+    },
+    "bersi": {
+      "item": "itm_aggro_minus_1:4",
+      "stat_ups": {
+        "ARMOR_BREAK": 1,
+        "KILLS": 16,
+        "RANK": 2,
+        "STRENGTH": 3
+      }
+    },
+    "bolverk": {
+      "stat_ups": {
+        "KILLS": 10
+      }
+    },
+    "egil": {
+      "stat_ups": {
+        "KILLS": 2
+      }
+    },
+    "eirik": {
+      "item": "itm_regen_wil_1:1",
+      "stat_ups": {
+        "ARMOR": 1,
+        "ARMOR_BREAK": 2,
+        "KILLS": 17,
+        "RANK": 3,
+        "STRENGTH": 3
+      }
+    },
+    "ekkill": {
+      "item": "itm_mov_2:11",
+      "stat_ups": {
+        "ARMOR": 3,
+        "ARMOR_BREAK": 2,
+        "KILLS": 12,
+        "RANK": 3,
+        "STRENGTH": 1
+      }
+    },
+    "eyvind": {
+      "item": "itm_regen_wil_2:7",
+      "stat_ups": {
+        "ARMOR_BREAK": 1,
+        "EXERTION": 1,
+        "KILLS": 18,
+        "STRENGTH": 2,
+        "WILLPOWER": 4
+      },
+      "vars": {
+        "talk": "1"
+      }
+    },
+    "fasolt": {
+      "stat_ups": {
+        "ARMOR_BREAK": 2,
+        "KILLS": 14,
+        "RANK": 2,
+        "STRENGTH": 2
+      }
+    },
+    "griss": {
+      "stat_ups": {
+        "ARMOR": 1,
+        "ARMOR_BREAK": 2,
+        "KILLS": 17,
+        "RANK": 3,
+        "STRENGTH": 3
+      }
+    },
+    "gunnulf": {
+      "stat_ups": {
+        "ARMOR": 1,
+        "ARMOR_BREAK": 1,
+        "EXERTION": 1,
+        "KILLS": 22,
+        "RANK": 3,
+        "STRENGTH": 3
+      }
+    },
+    "hakon": {
+      "item": "itm_kill_wil_3:3",
+      "stat_ups": {
+        "ARMOR": 1,
+        "ARMOR_BREAK": 1,
+        "KILLS": 19,
+        "RANK": 3,
+        "STRENGTH": 4
+      }
+    },
+    "hogun": {
+      "stat_ups": {
+        "ARMOR": 2,
+        "ARMOR_BREAK": 1,
+        "KILLS": 16,
+        "RANK": 3,
+        "STRENGTH": 3
+      }
+    },
+    "iver": {
+      "item": "itm_brk_3:7",
+      "stat_ups": {
+        "ARMOR_BREAK": 1,
+        "KILLS": 18,
+        "RANK": 3,
+        "STRENGTH": 5
+      }
+    },
+    "iver_armloss": {
+      "stat_ups": {
+        "ARMOR_BREAK": 2,
+        "KILLS": 9,
+        "RANK": 2,
+        "STRENGTH": 2
+      }
+    },
+    "iver_shield": {
+      "stat_ups": {
+        "ARMOR_BREAK": 2,
+        "KILLS": 9,
+        "RANK": 2,
+        "STRENGTH": 2
+      }
+    },
+    "juno": {
+      "stat_ups": {
+        "ARMOR_BREAK": 1,
+        "BASE_UPGRADES": 6,
+        "EXERTION": 1
+      }
+    },
+    "krumr": {
+      "stat_ups": {
+        "ARMOR_BREAK": 2,
+        "KILLS": 22,
+        "RANK": 3,
+        "STRENGTH": 4
+      }
+    },
+    "ludin": {
+      "stat_ups": {
+        "ARMOR": 2,
+        "ARMOR_BREAK": 1,
+        "KILLS": 11,
+        "RANK": 3,
+        "STRENGTH": 2,
+        "WILLPOWER": 1
+      }
+    },
+    "mogr": {
+      "stat_ups": {
+        "ARMOR_BREAK": 2,
+        "KILLS": 16,
+        "RANK": 3,
+        "STRENGTH": 4
+      }
+    },
+    "mogun": {
+      "item": "item_crit_3:4",
+      "stat_ups": {
+        "ARMOR": 3,
+        "ARMOR_BREAK": 1,
+        "KILLS": 15,
+        "RANK": 3,
+        "STRENGTH": 2
+      }
+    },
+    "narrator": {
+      "stat_ups": {
+        "ARMOR": 3,
+        "ARMOR_BREAK": 2,
+        "EXERTION": 1,
+        "STRENGTH": 3,
+        "WILLPOWER": 1
+      }
+    },
+    "nid": {
+      "item": "itm_dodge_3:3",
+      "stat_ups": {
+        "ARMOR": 2,
+        "ARMOR_BREAK": 1,
+        "KILLS": 16,
+        "RANK": 2,
+        "STRENGTH": 3
+      }
+    },
+    "oddleif": {
+      "stat_ups": {
+        "ARMOR": 1,
+        "ARMOR_BREAK": 1,
+        "EXERTION": 1,
+        "KILLS": 23,
+        "RANK": 3,
+        "STRENGTH": 2,
+        "WILLPOWER": 1
+      }
+    },
+    "onef": {
+      "stat_ups": {
+        "KILLS": 2
+      }
+    },
+    "rook": {
+      "actives": [
+        {
+          "id": "abl_arrow_bellower",
+          "level": 1,
+          "rankAcquired": 2
+        }
+      ],
+      "item": "itm_dodge_1:6",
+      "stat_ups": {
+        "KILLS": 7
+      }
+    },
+    "sigbjorn": {
+      "stat_ups": {
+        "KILLS": 16,
+        "WILLPOWER": 4
+      }
+    },
+    "tryggvi": {
+      "stat_ups": {
+        "ARMOR": 2,
+        "ARMOR_BREAK": 1,
+        "KILLS": 17,
+        "RANK": 3,
+        "STRENGTH": 2,
+        "WILLPOWER": 1
+      }
+    },
+    "yrsa": {
+      "item": "itm_brk_2:3",
+      "stat_ups": {
+        "ARMOR": 3,
+        "ARMOR_BREAK": 2,
+        "KILLS": 15,
+        "RANK": 3,
+        "STRENGTH": 1
+      }
+    }
+  },
+  "currentMusicId": "",
+  "date": 1657767792608,
+  "date_start": 1657605276285,
+  "day": 156,
+  "globalVars": {
+    "1_assaultfight": "1",
+    "1_assaultsplit": "1",
+    "1_badfood": "1",
+    "1_chapter_saved": "1",
+    "1_fasoltjoins": "1",
+    "1_firefight": "1",
+    "1_forestfight1": "1",
+    "1_forestfight2": "1",
+    "1_giftdenglr": "1",
+    "1_grissjoins1": "1",
+    "1_leftgold": "1",
+    "1_ludingone": "1",
+    "1_quickfight": "1",
+    "1_rhadds": "1",
+    "1_rhbattle1": "1",
+    "1_rhbattle2": "1",
+    "1_rhheroes": "1",
+    "1_rhleave": "1",
+    "1_rhrest": "1",
+    "1_rhstay": "1",
+    "1_strand_has_started": "1",
+    "1_strandmeadfight": "1",
+    "1_strandroyalty": "1",
+    "1_vedrcamped": "1",
+    "1_vedrheroes": "1",
+    "1_vedrleave": "1",
+    "1_vedrmap": "1",
+    "2_alettejoins": "1",
+    "2_chapter_saved": "1",
+    "2_confrontekkill": "1",
+    "2_einarallfight": "1",
+    "2_einarcamped": "1",
+    "2_einardestroybridge": "1",
+    "2_einarfightonbridge": "1",
+    "2_einarfirstrest": "1",
+    "2_einarheroes": "1",
+    "2_einarleave": "1",
+    "2_einarmap": "1",
+    "2_einarmarket": "1",
+    "2_einartalkjorundr": "1",
+    "2_frostcamped": "1",
+    "2_frostcartdeal": "1",
+    "2_frostgatefight": "1",
+    "2_frostheroes": "1",
+    "2_frostinside": "1",
+    "2_frostleave": "1",
+    "2_frostmarket": "1",
+    "2_frostnecklace": "1",
+    "2_frostsupply": "1",
+    "2_frostsupplyfight": "1",
+    "2_hridgift": "1",
+    "2_kidsfight": "1",
+    "2_krumrjoins": "1",
+    "2_oddleiftrains": "1",
+    "2_onefjoins": "1",
+    "2_rookcaravan": "1",
+    "2_savedcart": "1",
+    "2_skograrrived": "1",
+    "2_skogrfighters": "1",
+    "2_skogrsupply": "1",
+    "2_traveldrunkard2": "1",
+    "2_traveldrunkard3": "1",
+    "2_village1fight": "1",
+    "3_serpentfirst": "1",
+    "4_ekkillprisoners": "1",
+    "4_sunoil": "1",
+    "4_varlbelt": "1",
+    "5_blewitup": "1",
+    "5_chapter_saved": "1",
+    "5_day1fight": "1",
+    "5_day1help": "1",
+    "5_day2fight": "1",
+    "5_day2help": "1",
+    "5_day3fight": "1",
+    "5_day3help": "1",
+    "6_bjorulfblessing": "1",
+    "6_dredgebaby": "1",
+    "6_dundrglove": "1",
+    "6_fightsummer1": "1",
+    "6_gotohaukrtorp": "1",
+    "6_hauksman": "1",
+    "6_nidfight": "1",
+    "6_nidjoins": "1",
+    "6_onefstrikes": "1",
+    "6_persevere": "1",
+    "6_puzzlebox": "1",
+    "6_reynfight": "1",
+    "6_sigrday2": "1",
+    "6_sigrferry": "1",
+    "6_sigrfight": "1",
+    "6_sigrheroes": "1",
+    "6_sigrleave": "1",
+    "6_sigrmap": "1",
+    "6_sigrmarket": "1",
+    "6_sigrrest": "1",
+    "6_sigstein": "1",
+    "6_tistelberry": "1",
+    "7_bellower_shot": "1",
+    "7_bellowerdied": "1",
+    "7_bellowerwounded": "1",
+    "7_boersbellower": "1",
+    "7_boerscaravan": "1",
+    "7_boersday5": "1",
+    "7_boersdredge1": "1",
+    "7_boersfighthorn": "1",
+    "7_boersfood": "1",
+    "7_boersheroes": "1",
+    "7_boerskeephorn": "1",
+    "7_boersmap": "1",
+    "7_ivertalk": "1",
+    "7_junoarrives": "1",
+    "7_krumrleads": "1",
+    "7_stravhstone": "1",
+    "_day_calc_count": "1",
+    "_day_calc_morale": "20",
+    "_day_calc_supplies": "-12",
+    "acv_class_bowmaster": "1",
+    "acv_class_eagleeye": "1",
+    "acv_class_grudgewielder": "1",
+    "acv_class_hunter": "1",
+    "acv_class_mender_male": "1",
+    "acv_class_provoker": "1",
+    "acv_class_shieldmaster": "1",
+    "acv_class_siegearcher": "1",
+    "acv_class_skystriker": "1",
+    "acv_class_spearmaster": "1",
+    "acv_class_strongarm": "1",
+    "acv_class_thrasher": "1",
+    "acv_class_warden": "1",
+    "acv_class_warhawk": "1",
+    "acv_class_warleader": "1",
+    "acv_class_warmaster": "1",
+    "acv_complete_treasure_hunter": "1",
+    "acv_complete_warmonger": "1",
+    "acv_godstone_bjorulf": "1",
+    "acv_godstone_denglr": "1",
+    "acv_godstone_dundr": "1",
+    "acv_godstone_hatteberg": "1",
+    "acv_godstone_hridvaldyr": "1",
+    "acv_godstone_ingrid": "1",
+    "acv_godstone_marek": "1",
+    "acv_godstone_radormyr": "1",
+    "acv_godstone_stravhs": "1",
+    "battle_victory": "1",
+    "camp_music_suppressed": "1",
+    "camp_tips_disabled": "1",
+    "camptrained": "1",
+    "day": "156.95404170495885",
+    "difficulty": "2",
+    "egildied": "1",
+    "fasoltdied": "1",
+    "frostvellrdredge": "1",
+    "game_progress": "99",
+    "junoarcherdied": "1",
+    "junotip1": "1",
+    "junotip10": "1",
+    "junotip11": "1",
+    "junotip12": "1",
+    "junotip13": "1",
+    "junotip14": "1",
+    "junotip2": "1",
+    "junotip3": "1",
+    "junotip4": "1",
+    "junotip5": "1",
+    "junotip6": "1",
+    "junotip7": "1",
+    "junotip8": "1",
+    "junotip9": "1",
+    "locale_en": "1",
+    "map_tutorial": "1",
+    "market_available_supplies": "16",
+    "market_items_min": "3",
+    "market_supplies_per_renown": "1",
+    "onefdied": "1",
+    "onefkillegil": "1",
+    "play_minutes": "393",
+    "prg_alette_guilty": "1",
+    "prg_battles_fought": "48",
+    "prg_battles_won": "47",
+    "prg_class_bowmaster": "14",
+    "prg_class_eagleeye": "17",
+    "prg_class_grudgewielder": "12",
+    "prg_class_hunter": "6",
+    "prg_class_mender_male": "3",
+    "prg_class_provoker": "13",
+    "prg_class_shieldmaster": "16",
+    "prg_class_siegearcher": "15",
+    "prg_class_skystriker": "23",
+    "prg_class_spearmaster": "27",
+    "prg_class_strongarm": "25",
+    "prg_class_thrasher": "30",
+    "prg_class_warden": "17",
+    "prg_class_warhawk": "26",
+    "prg_class_warleader": "21",
+    "prg_class_warmaster": "16",
+    "prg_items_gained_5": "5",
+    "prg_min_difficulty": "2",
+    "prg_min_morale_category": "2",
+    "quake_frame_vfx_backmountain_1": "450",
+    "quake_frame_vfx_foremountain_1": "600",
+    "quake_frame_vfx_nearmountains_1": "600",
+    "rdm_abandoned": "1",
+    "rdm_baby": "1",
+    "rdm_blizzard": "1",
+    "rdm_bribery": "1",
+    "rdm_bribery_fight": "1",
+    "rdm_corneredvarl": "1",
+    "rdm_familyfeud1": "1",
+    "rdm_fireincamp": "1",
+    "rdm_humanambush": "1",
+    "rdm_humanambush_fight": "1",
+    "rdm_lostchild1": "1",
+    "rdm_lostchild3": "1",
+    "rdm_outlaws1": "1",
+    "rdm_overpop": "1",
+    "rdm_poetry": "1",
+    "rdm_quirky1": "1",
+    "rdm_refugees": "1",
+    "rdm_varlfidget": "1",
+    "rdm_wildfruit": "1",
+    "rdm_woundedvarl": "1",
+    "rookdied": "1",
+    "sav_finale": "1",
+    "survival_reload_required": "false",
+    "tip_assemble_order": "1",
+    "tip_roster_injured": "1",
+    "tip_roster_items": "1",
+    "trn_speak_delay": "1",
+    "tut_heroes": "1",
+    "tut_heroes_ability": "1",
+    "tut_heroes_details": "1",
+    "war_battle": "1",
+    "war_continue": "1",
+    "war_continue_morale": "8",
+    "war_continue_renown": "4",
+    "war_continue_threat": "-3",
+    "war_danger": "13",
+    "war_enemy_power": "460",
+    "war_player_power": "100",
+    "war_renown": "5",
+    "war_threat": "2"
+  },
+  "halted": true,
+  "id": "resume",
+  "last_chapter_save_id": "sav_chapter5",
+  "last_checkpoint_save_id": "sav_finale",
+  "marketItemDefIds": [
+    "itm_knockback_2",
+    "itm_regen_arm_1",
+    "itm_arm_2",
+    "itm_rest_arm_3"
+  ],
+  "metrics": {
+    "global": {
+      "minus": {
+        "rookcaravan.supplies": 12
+      },
+      "plus": {
+        "global.play_minutes": 20,
+        "rookcaravan.renown": 14
+      },
+      "total": {
+        "cin_start.num_population": 0,
+        "cin_start.renown": 0,
+        "cin_start.supplies": 0,
+        "global.play_minutes": 393,
+        "hakoncaravan.num_population": 0,
+        "hakoncaravan.renown": 0,
+        "hakoncaravan.supplies": 0,
+        "hakonfullcaravan.num_population": 0,
+        "hakonfullcaravan.renown": 0,
+        "hakonfullcaravan.supplies": 0,
+        "junocaravan.num_population": 0,
+        "junocaravan.renown": 0,
+        "junocaravan.supplies": 0,
+        "narratorcaravan.num_population": 0,
+        "narratorcaravan.renown": 0,
+        "narratorcaravan.supplies": 0,
+        "rookcaravan.num_population": 0,
+        "rookcaravan.renown": 21,
+        "rookcaravan.supplies": 316,
+        "rookfullcaravan.num_population": 0,
+        "rookfullcaravan.renown": 0,
+        "rookfullcaravan.supplies": 0
+      }
+    }
+  },
+  "pageView": "saga_sav_chapter5",
+  "rng": {
+    "_sampleCount": 12358,
+    "inext": 38,
+    "inextp": 4,
+    "seed": -252099969,
+    "seedArray": [
+      0,
+      182924545,
+      1143737753,
+      272345979,
+      25499905,
+      361230592,
+      1636135868,
+      266514328,
+      724107558,
+      208271357,
+      2039329421,
+      2146018590,
+      1134428110,
+      2010517052,
+      1333194506,
+      1798906754,
+      158021623,
+      1587506653,
+      611579174,
+      1643609247,
+      982920653,
+      1518769232,
+      1485260295,
+      1574452821,
+      824377150,
+      1930992689,
+      1857284939,
+      12015206,
+      843410985,
+      327490768,
+      245825616,
+      91954984,
+      1862890352,
+      1139699493,
+      1182871650,
+      1931966973,
+      1572773751,
+      217911754,
+      994272970,
+      1759051604,
+      1495265831,
+      1698614632,
+      1138297573,
+      304482961,
+      190755444,
+      2072361097,
+      698433619,
+      1210691912,
+      582294568,
+      1980494024,
+      256684268,
+      99824430,
+      2035193651,
+      1794492026,
+      1179930998,
+      1314979686
+    ]
+  },
+  "saga_id": "saga1",
+  "sceneUrl": "saga1/scene/part5/vlg_boersgard/vlg_boersgard.json.z",
+  "selectedVariable": "hero_alette",
+  "startHappening": "start",
+  "thumbnail": "",
+  "travelLocator": {
+  },
+  "version": 2
+}
